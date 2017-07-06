@@ -8,7 +8,7 @@ var guessCount = 0;
 var correctGuess = false;
 
 function getRandomNumber(upper) {
-    return Math.floor( Math.random() * upper ) + 1;
+    var num = Math.floor( Math.random() * upper ) + 1;
     return num;
 }
 
